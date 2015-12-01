@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{605CBE58-CC34-40D7-875D-BB1151E3BD7D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JsonFx</RootNamespace>
+    <AssemblyName>JsonFx</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="AfterBuild" command="/bin/cp ${TargetFile} ${SolutionDir}/../../fantasyccg/FantasyCCGUnity/Assets/Plugins" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\About.cs" />
+    <Compile Include="Classes\DataReaderProvider.cs" />
+    <Compile Include="Classes\DataWriterProvider.cs" />
+    <Compile Include="Classes\EcmaScriptIdentifier.cs" />
+    <Compile Include="Classes\EcmaScriptWriter.cs" />
+    <Compile Include="Classes\IDataReader.cs" />
+    <Compile Include="Classes\IDataWriter.cs" />
+    <Compile Include="Classes\IJsonSerializable.cs" />
+    <Compile Include="Classes\JsonDataReader.cs" />
+    <Compile Include="Classes\JsonDataWriter.cs" />
+    <Compile Include="Classes\JsonIgnoreAttribute.cs" />
+    <Compile Include="Classes\JsonNameAttribute.cs" />
+    <Compile Include="Classes\JsonReader.cs" />
+    <Compile Include="Classes\JsonReaderSettings.cs" />
+    <Compile Include="Classes\JsonSerializationException.cs" />
+    <Compile Include="Classes\JsonSpecifiedPropertyAttribute.cs" />
+    <Compile Include="Classes\JsonToken.cs" />
+    <Compile Include="Classes\JsonWriter.cs" />
+    <Compile Include="Classes\JsonWriterSettings.cs" />
+    <Compile Include="Classes\TypeCoercionUtility.cs" />
+    <Compile Include="Classes\Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Properties\AssemblyVersion.cs" />
+    <Compile Include="Classes\NameResolver.cs" />
+    <Compile Include="Classes\BaseEnum.cs" />
+    <Compile Include="Classes\JsonConstructorAttribute.cs" />
+    <Compile Include="Classes\JsonValueAttribute.cs" />
+    <Compile Include="Classes\JsonFactoryMethodAttribute.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes\JsonFx.Json.csproj" />
+    <None Include="Classes\License.txt" />
+    <None Include="Classes\Readme.txt" />
+    <None Include="Classes\Scripts\json2.js" />
+  </ItemGroup>
+</Project>

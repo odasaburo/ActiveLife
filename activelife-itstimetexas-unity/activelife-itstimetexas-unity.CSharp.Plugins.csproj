@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA774BE1-34A0-6DB2-573B-C30D6E108BCE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>5.2.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Modules\ThirdParty\NewtonJson\Net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>Assets\Modules\ThirdParty\SystemWeb\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>Assets\Modules\ThirdParty\SystemWeb\System.Web.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Android\HockeyAppUnityAndroid\HockeyAppUnity-Scripts\HockeyAppAndroid.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\Attributes\RangedTooltipAttribute.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\Attributes\TooltipAttribute.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\Field.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\Fields.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\GAIHandler.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\GoogleAnalyticsAndroidV3.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\GoogleAnalyticsMPV3.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\GoogleAnalyticsV3.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\GoogleAnalyticsiOSV3.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\AppViewHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\EventHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\ExceptionHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\HitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\ItemHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\SocialHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\TimingHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\GoogleAnalyticsV3\HitBuilders\TransactionHitBuilder.cs" />
+    <Compile Include="Assets\Plugins\iOS\HockeyAppiOSPlugIn\HockeyAppUnityIOS\HockeyAppUnity-Scripts\HockeyAppIOS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AudienceNetwork\Audience Network README.txt" />
+    <None Include="Assets\Facebook\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+    <None Include="Assets\Modules\Internal\TODO.txt" />
+    <None Include="Assets\Modules\ThirdParty\JsonFx\JsonFx\Classes\License.txt" />
+    <None Include="Assets\Modules\ThirdParty\JsonFx\JsonFx\Classes\Readme.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\ReadMe - 3.7.8.txt" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\Modules\ThirdParty\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Modules\ThirdParty\NewtonJson\Net20\Newtonsoft.Json.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+    <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+    <None Include="Assets\Plugins\Android\facebook\build.xml" />
+    <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_like.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_like_selected.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_tooltip_bubble.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+    <None Include="Assets\Plugins\TODO.txt" />
+    <None Include="Assets\Project\Content\Resources\Shaders\FrostedGlassShader(Alpha).shader" />
+    <None Include="Assets\Project\Content\Resources\Shaders\MobileBlur.shader" />
+    <None Include="Assets\Project\Content\Resources\Shaders\Unlit - Grayscale 1.shader" />
+    <None Include="Assets\Project\Content\Resources\Shaders\Unlit - Grayscale.shader" />
+    <None Include="Assets\Project\Editor\Config\Config.txt" />
+    <None Include="Assets\Project\Resources\Config\Config.txt" />
+    <None Include="Assets\Project\Scripts\Project\Scene\TODO.txt" />
+    <None Include="Assets\Project\Scripts\Project\Shaders\FrostedGlassShader.shader" />
+    <None Include="Assets\Project\Scripts\Project\Shaders\GradientBackdropShader.shader" />
+    <None Include="Assets\Project\Scripts\Project\Shaders\TransparencyBlurShader.shader" />
+    <None Include="Assets\Project\Scripts\TODO.txt" />
+    <None Include="Assets\link.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

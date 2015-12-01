@@ -1,0 +1,1 @@
+Add project specific submodule extensions in folders named after the submodule in this file.

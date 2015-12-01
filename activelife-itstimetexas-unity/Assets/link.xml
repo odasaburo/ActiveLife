@@ -1,0 +1,39 @@
+<linker>
+
+    <assembly fullname="mscorlib">
+
+        <!-- fixes System.NotSupportedException in FlickrNet.Flickr.OAuthCalculateSignature using System_Security.Cryptography.HashAlgorithm.ComputeHash -->
+
+        <namespace fullname="System.Security.Cryptography" preserve="all"/>
+
+    </assembly>	
+
+  <assembly fullname="System">
+
+    <type fullname="System.ComponentModel.CharConverter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.ByteConverter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.SByteConverter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.Int16Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.UInt16Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.Int32Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.UInt32Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.Int64Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.UInt64Converter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.DoubleConverter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.DecimalConverter" preserve="all"/>
+
+    <type fullname="System.ComponentModel.SingleConverter" preserve="all"/>
+
+  </assembly>
+
+</linker>

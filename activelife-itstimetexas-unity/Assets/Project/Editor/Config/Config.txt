@@ -1,0 +1,32 @@
+{
+	"__type": "ChaoticMoon.Core.ConfigData, Assembly-CSharp",
+	
+	"m_configuration_db": 
+		{
+			"ChaoticMoon.Core.Editors.SourceControlConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.Editors.SourceControlConfigurable, Assembly-CSharp-Editor",
+					
+					"source_entries": 
+						[
+							{
+								"__type": "ChaoticMoon.Core.Editors.SourceControlEntry, Assembly-CSharp-Editor",
+								
+								"m_name": "Core",
+								
+								"m_source_control": "git",
+								
+								"m_path": "/Modules/Core",
+								
+								"m_repository": "git@github.com:CMChaosEngine/CMCore-Unity.git"
+							}
+						]
+				},
+			"ChaoticMoon.Core.Editors.PostBuildConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.Editors.PostBuildConfigurable, Assembly-CSharp-Editor",
+					
+					"m_type_name": "ChaoticMoon.Core.Editors.PostBuild, Assembly-CSharp-Editor"
+				}
+		}
+}

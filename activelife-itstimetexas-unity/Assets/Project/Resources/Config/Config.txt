@@ -1,0 +1,53 @@
+{
+	"__type": "ChaoticMoon.Core.ConfigData, Assembly-CSharp",
+	
+	"m_configuration_db": 
+		{
+			"ChaoticMoon.Core.BootStrapperConfig": 
+				{
+					"__type": "ChaoticMoon.Core.BootStrapperConfig, Assembly-CSharp",
+					
+					"frame_rate": 30
+				},
+			"ChaoticMoon.Core.InputManagerConfigHelper": 
+				{
+					"__type": "ChaoticMoon.Core.InputManagerConfigHelper, Assembly-CSharp",
+					
+					"m_type_name": "ChaoticMoon.Core.InputManager, Assembly-CSharp"
+				},
+			"ChaoticMoon.Core.LocalizationManager+LocalizationConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.LocalizationManager+LocalizationConfigurable, Assembly-CSharp",
+					
+					"m_default_language": "en-US",
+					
+					"m_languages": 
+						[
+							"en-US"
+						]
+				},
+			"ChaoticMoon.Core.SerializationConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.SerializationConfigurable, Assembly-CSharp",
+					
+					"m_formatters": null,
+					
+					"m_text_encoding": "utf8"
+				},
+			"ChaoticMoon.Core.SoundGroupConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.SoundGroupConfigurable, Assembly-CSharp",
+					
+					"m_type_name": "ChaoticMoon.Core.SoundManager, Assembly-CSharp",
+					
+					"group_entries": 
+						[]
+				},
+			"ChaoticMoon.Core.UserOptions+UserOptionsConfigurable": 
+				{
+					"__type": "ChaoticMoon.Core.UserOptions+UserOptionsConfigurable, Assembly-CSharp",
+					
+					"m_type_name": "ChaoticMoon.Core.UserOptions, Assembly-CSharp"
+				}
+		}
+}
